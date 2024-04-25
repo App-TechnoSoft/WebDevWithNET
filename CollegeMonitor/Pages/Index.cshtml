@@ -2,6 +2,8 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    int xx = 90;
+    string name = "sdfsfd";
 }
 
 @for (int i = 0; i < 10; i++)
@@ -15,3 +17,14 @@
 1. Print numbers from 1 to 1000
 2. Print multiplication table for 45 
 *@
+
+@for(int x = 1; x <=1000; x++)
+{
+    <span>@x</span>
+}
+
+@for(byte multiplier=1; multiplier <=10; multiplier++)
+{
+    var output = 45 * multiplier;
+    <p>45 * @multiplier = @output</p>
+}
