@@ -27,7 +27,7 @@ CollegeMonitor - https://collegemonitor.com
 # CollegeMonitor Requirements
 
 ## Entities/Tables/Models
-1. Class - Id, Title, Start, Duration, Details
+1. Session - Id, Title, Start, Duration, Details
 1. Course - Id, Name, TextBook, CreditHrs
 1. Student - Id, Name, Address, Email, Program, Semester
 
