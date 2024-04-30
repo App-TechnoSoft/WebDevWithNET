@@ -10,16 +10,24 @@
       <th scope="col">Name</th>
       <th scope="col">Textbook</th>
       <th scope="col">Credit Hours</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
+    @{
+      int counter = 1;
+    }
     @foreach (var course in Model.Courses)
     {
       <tr>
-        <th scope="row">1</th>
+        <th scope="row">@(counter++)</th>
         <td>@course.Name</td>
         <td>@course.TextBook</td>
         <td>@course.CreditHrs</td>
+        <td>
+          <a href="/courses/edit/@course.Id"><i class="bi bi-pen text-warning"></i></a>
+          <a href="/courses/delete/@course.Id"><i class="bi bi-trash2 text-danger"></i></a>
+        </td>
       </tr>
     }
   </tbody>
