@@ -39,3 +39,8 @@ CollegeMonitor - https://collegemonitor.com
 1. On courses page, number should be 1,2,3...N
 1. For each course, there should be edit and delete buttons
 1. When edit is clicked, course edit page should be displayed with course data prepopulated
+
+## Classwork - 2024/5/2
+1. Add navigation menu for sessions
+2. Modify "create new" as button with appropriate icon
+3. Modify Edit | Details | Delete links to just have icons

@@ -6,3 +6,19 @@ public class Session
     public DateTime Start { get; set; }
     public float DurationInHours { get; set; }
 }
+
+// class A
+// {    
+// }
+
+// class B
+// {    
+//     // A a1 = new();        // Tight coupling, hard coupling
+//     // Dependency injection
+//     // Most common: constructor injection
+//     A a1;
+//     public B(A a2)
+//     {
+//         a1 = a2;
+//     }
+// }
