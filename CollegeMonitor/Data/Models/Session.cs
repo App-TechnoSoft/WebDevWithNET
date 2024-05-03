@@ -5,7 +5,13 @@ public class Session
     public string? Details { get; set; }
     public DateTime Start { get; set; }
     public float DurationInHours { get; set; }
+
+    public int? CourseId { get; set; }
+    public Course? Course { get; set; }
 }
+
+
+// Course has multiple sessions - one to many
 
 // class A
 // {    
