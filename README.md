@@ -44,3 +44,8 @@ CollegeMonitor - https://collegemonitor.com
 1. Add navigation menu for sessions
 2. Modify "create new" as button with appropriate icon
 3. Modify Edit | Details | Delete links to just have icons
+
+
+## Web development
+### Web UI application - ASP.NET Core razor pages
+### REST API / HTTP API / HTTP Endpoints / Web API / Web Services
