@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollegeMonitor", "CollegeMonitor\CollegeMonitor.csproj", "{183624C5-4587-45C0-9FEB-4A09E123944F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollegeApi", "CollegeApi\CollegeApi.csproj", "{53644CEE-AB5C-431F-B086-CF848BD92AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.Infrastructure", "College.Infrastructure\College.Infrastructure.csproj", "{7623BF52-77C6-44EB-8B32-BCE19000EC45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{183624C5-4587-45C0-9FEB-4A09E123944F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{183624C5-4587-45C0-9FEB-4A09E123944F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{183624C5-4587-45C0-9FEB-4A09E123944F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53644CEE-AB5C-431F-B086-CF848BD92AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53644CEE-AB5C-431F-B086-CF848BD92AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53644CEE-AB5C-431F-B086-CF848BD92AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53644CEE-AB5C-431F-B086-CF848BD92AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7623BF52-77C6-44EB-8B32-BCE19000EC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7623BF52-77C6-44EB-8B32-BCE19000EC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7623BF52-77C6-44EB-8B32-BCE19000EC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7623BF52-77C6-44EB-8B32-BCE19000EC45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
